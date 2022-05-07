@@ -1,16 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitrix</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vitrix</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+        <!--====== CSS ======-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/custom-animation.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div id="preloader-wrap">
+            <div id="loading">
+                <span id="loading-img">
+                    <img src="assets/images/favicon.png" alt="Icone Vitrix" />
+                </span>
+            </div>
+        </div>
+        <!--====== Menu ======-->
+        <div class="off_canvars_overlay">
+        </div>
+        <div class="offcanvas_menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="offcanvas_menu_wrapper">
+                            <div class="canvas_close">
+                                <a href="javascript:void(0)"><i class="fa fa-times"></i></a>  
+                            </div>
+                            <div class="offcanvas-brand text-center mb-40">
+                                <img src="assets/images/logo.png" alt="">
+                            </div>
+                            <div id="menu" class="text-left ">
+                                <ul class="offcanvas_main_menu">
+                                    <li class="menu-item-has-children active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#como-funciona">Como funciona?</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#recursos">Recursos</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#pra-quem-serve">Para quem serve?</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#demo">Demonstração</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#planos">Planos</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#solucoes">Soluções</a>
+                                    </li>
+                                    <li class="menu-item-has-children active">
+                                        <a href="#">Suporte</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="offcanvas-social">
+                                <ul class="text-center">
+                                    <li><a href="https://www.facebook.com/Gestorcontrolcom-107125714673860" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/gestorcontrol/" target="_blank"><i class="fab fa-instagram"  target="_blank"></i></a></li>
+                                    <li><a href="https://vitrix.link/login" title="Login"><i class="fal fa-user"></i></a></li>
+                                    <li><a href="https://vitrix.link/comece/" title="Teste Grátis" ><i class="fas fa-rocket"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="appie-header-area appie-sticky">
+            <div class="container">
+                <div class="header-nav-box">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                            <div class="appie-logo-box">
+                                <a href="index.html">
+                                    <img src="assets/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-1 col-sm-1 order-3 order-sm-2">
+                            <div class="appie-header-main-menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#como-funciona">Como funciona?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#recursos">Recursos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#pra-quem-serve">Para quem serve?</a>
+                                    </li>
+                                    <li>
+                                        <a href="#demo">Demonstração</a>
+                                    </li>
+                                    <li>
+                                        <a href="#planos">Planos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#solucoes">Soluções</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Suporte</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                            <div class="appie-btn-box text-right">
+                                <a class="login-btn" href="https://vitrix.link/login"><i class="fal fa-user"></i> Login</a>
+                                <a class=" animated_btn ml-10" href="https://vitrix.link/comece/">Teste Grátis</a>
+                                <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+                                    <i class="fa fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--====== JS ======-->
+        <!-- <script src="assets/js/jquery-3.6.0.js" ></script> -->
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/TweenMax.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
