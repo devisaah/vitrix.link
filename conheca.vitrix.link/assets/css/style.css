@@ -2266,6 +2266,7 @@ transform: scaleY(1);
         padding-top: 190px; } }
 
 .appie-single-service {
+  min-height: 300px;
   padding: 50px 30px 43px;
   background: #fff;
   border-radius: 6px;
