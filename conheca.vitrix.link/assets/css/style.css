@@ -2356,7 +2356,8 @@ transform: scaleY(1);
 .appie-single-service-2 {
   border: 1px solid #eef0f4;
   border-radius: 10px;
-  padding: 48px;
+  padding: 27px;
+  min-height: 215px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2386,30 +2387,90 @@ transform: scaleY(1);
     margin-top: 23px; }
     .appie-single-service-2 a:hover {
       color: #00143b; }
-  .appie-single-service-2:hover {
+  .appie-single-service-2 {
     box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004), 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
     border-top: 3px solid #2eacfc;
     transform: translateY(-10px); }
   .appie-single-service-2.item-2 .icon i {
     background: #ea4c89; }
-  .appie-single-service-2.item-2:hover {
+  .appie-single-service-2.item-2 {
     border-top-color: #ea4c89; }
   .appie-single-service-2.item-3 .icon i {
     background: #3578ff; }
-  .appie-single-service-2.item-3:hover {
+  .appie-single-service-2.item-3 {
     border-top-color: #3578ff; }
   .appie-single-service-2.item-4 .icon i {
     background: #f67741; }
-  .appie-single-service-2.item-4:hover {
+  .appie-single-service-2.item-4 {
     border-top-color: #f67741; }
   .appie-single-service-2.item-5 .icon i {
     background: #6a88f7; }
-  .appie-single-service-2.item-5:hover {
+  .appie-single-service-2.item-5 {
     border-top-color: #6a88f7; }
   .appie-single-service-2.item-6 .icon i {
     background: #3ab094; }
-  .appie-single-service-2.item-6:hover {
+  .appie-single-service-2.item-6 {
     border-top-color: #3ab094; }
+    .appie-single-service-2.item-7 .icon i {
+    background: #ce55c4; }
+  .appie-single-service-2.item-7 {
+    border-top-color: #ce55c4; }
+    .appie-single-service-2.item-8 .icon i {
+    background: #73c144; }
+  .appie-single-service-2.item-8 {
+    border-top-color: #73c144; }
+  .appie-single-service-2.item-9 .icon i {
+    background:#272891 
+  } 
+  .appie-single-service-2.item-9 {
+    border-top-color: #272891
+  }
+
+.appie-single-service-2.item-10 .icon i {background:#6da31a} 
+.appie-single-service-2.item-10 {border-top-color: #6da31a}
+.appie-single-service-2.item-11 .icon i {background:#b4b221} 
+.appie-single-service-2.item-11 {border-top-color: #b4b221}
+.appie-single-service-2.item-12 .icon i {background:#167733} 
+.appie-single-service-2.item-12 {border-top-color: #167733}
+.appie-single-service-2.item-13 .icon i {background:#aaf7a4} 
+.appie-single-service-2.item-13 {border-top-color: #aaf7a4}
+.appie-single-service-2.item-14 .icon i {background:#5522e5} 
+.appie-single-service-2.item-14 {border-top-color: #5522e5}
+.appie-single-service-2.item-15 .icon i {background:#a42526} 
+.appie-single-service-2.item-15 {border-top-color: #a42526}
+.appie-single-service-2.item-16 .icon i {background:#ed4ad8} 
+.appie-single-service-2.item-16 {border-top-color: #ed4ad8}
+.appie-single-service-2.item-17 .icon i {background:#1a42ba} 
+.appie-single-service-2.item-17 {border-top-color: #1a42ba}
+.appie-single-service-2.item-18 .icon i {background:#e66dca} 
+.appie-single-service-2.item-18 {border-top-color: #e66dca}
+.appie-single-service-2.item-19 .icon i {background:#97692e} 
+.appie-single-service-2.item-19 {border-top-color: #97692e}
+.appie-single-service-2.item-20 .icon i {background:#6aae1e} 
+.appie-single-service-2.item-20 {border-top-color: #6aae1e}
+.appie-single-service-2.item-21 .icon i {background:#422e99} 
+.appie-single-service-2.item-21 {border-top-color: #422e99}
+.appie-single-service-2.item-22 .icon i {background:#951588} 
+.appie-single-service-2.item-22 {border-top-color: #951588}
+.appie-single-service-2.item-23 .icon i {background:#6e2302} 
+.appie-single-service-2.item-23 {border-top-color: #6e2302}
+.appie-single-service-2.item-24 .icon i {background:#6c8b4e} 
+.appie-single-service-2.item-24 {border-top-color: #6c8b4e}
+.appie-single-service-2.item-25 .icon i {background:#989e91} 
+.appie-single-service-2.item-25 {border-top-color: #989e91}
+.appie-single-service-2.item-26 .icon i {background:#68bcff} 
+.appie-single-service-2.item-26 {border-top-color: #68bcff}
+.appie-single-service-2.item-27 .icon i {background:#e22368} 
+.appie-single-service-2.item-27 {border-top-color: #e22368}
+.appie-single-service-2.item-28 .icon i {background:#19f777} 
+.appie-single-service-2.item-28 {border-top-color: #19f777}
+.appie-single-service-2.item-29 .icon i {background:#afb5e0} 
+.appie-single-service-2.item-29 {border-top-color: #afb5e0}
+.appie-single-service-2.item-30 .icon i {background:#683f0b} 
+.appie-single-service-2.item-30 {border-top-color: #683f0b}
+.appie-single-service-2.item-31 .icon i {background:#bed95e} 
+.appie-single-service-2.item-31 {border-top-color: #bed95e}
+
   .appie-single-service-2.appie-single-service-about {
     border-radius: 0;
     padding: 0 90px 30px 0;
