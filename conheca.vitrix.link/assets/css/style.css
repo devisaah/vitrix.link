@@ -3488,6 +3488,8 @@ transform: scaleY(1);
 .pricing-one__single {
   background: #fff;
   padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 6px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3515,7 +3517,7 @@ transform: scaleY(1);
       .pricing-one__single .pricig-heading .price-range sup {
         font-size: 24px; }
       .pricing-one__single .pricig-heading .price-range span {
-        font-size: 44px;
+        font-size: 36px;
         font-weight: 900; }
       .pricing-one__single .pricig-heading .price-range p {
         display: inline-block;
