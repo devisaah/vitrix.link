@@ -5356,7 +5356,7 @@ blockquote cite {
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .appie-about-service p {
         font-size: 14px; } }
-
+.appie-about-3-area {    }
 .appie-about-3-area .appie-traffic-title {
   padding-right: 100px; }
   @media (max-width: 767px) {
