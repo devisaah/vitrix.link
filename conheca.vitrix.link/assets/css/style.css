@@ -2588,6 +2588,8 @@ transform: scaleY(1);
     5.APPIE FEATURES css 
 ===========================*/
 .appie-features-area {
+  
+    background: #eef1f6;
   position: relative;
   z-index: 10;
   overflow: hidden; }
