@@ -2879,6 +2879,11 @@ transform: scaleY(1);
     font-size: 14px;
     font-weight: 500;
     color: #00143b; }
+  .appie-traffic-title p {
+      text-indent: 50px;
+      text-align: justify;
+      margin-bottom: 5px;
+  }
   .appie-traffic-title .title {
     font-size: 44px;
     line-height: 54px; }
