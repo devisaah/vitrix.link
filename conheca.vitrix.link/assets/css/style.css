@@ -6,6 +6,7 @@
 	02. Header
   03. Hero
 	04. Footer
+  05. Demo
 
 -----------------------------------------------------------------------------------*/
 /*===========================
@@ -7064,3 +7065,100 @@ blockquote cite {
   display: none;
 }
 
+/*===========================
+    5. Demo css 
+===========================*/
+.demo-wrap {
+  margin-bottom: -40px;
+}
+
+.demo {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.demo .inner {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.demo .inner .image {
+  position: relative;
+  display: block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.demo .inner .image::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0;
+  background-color: #00143b;
+}
+
+.demo .inner .image img {
+  width: 100%;
+}
+
+.demo .inner .image i {
+  font-size: 24px;
+  line-height: 56px;
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.demo .inner .title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.demo .inner .title a {
+  display: block;
+  color: #333333;
+}
+
+.demo .inner .title a:hover {
+  color: #00143b99;
+}
+
+.demo .inner:hover .image {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.demo .inner:hover .image::after {
+  opacity: 0.8;
+}
+
+.demo .inner:hover .image img {
+  width: 100%;
+}
+
+.demo .inner:hover .image i {
+  margin-top: -30px;
+  opacity: 1;
+}
+
+.demo .inner:hover .image i:hover {
+  color: #00143b99;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+}
